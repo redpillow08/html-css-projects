@@ -1,0 +1,35 @@
+body{
+
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.author{
+    color: gray;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loading{
+    border: 10px solid black;
+    height: 50px;
+    width: 50px;
+    border-left-color: white;
+    border-top-color: white;
+    border-radius: 50%;
+    animation: rotate 500ms infinite linear;
+   
+}
+
+@keyframes rotate {
+    0%{
+        transform:rotate(0deg);
+    }
+100%{
+        transform:rotate(360deg);
+    }
+}
